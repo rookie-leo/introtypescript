@@ -15,6 +15,7 @@ let n: null = null;
 
 // Never
 // Funções que retornam 'never' devem possuir um final inalcançável
+let mensagem = "Erro! ";
 function error(message: string): never {
     throw new Error(mensagem);
 }
