@@ -33,7 +33,7 @@ window.onload = () => {
 
     let myArray: string[] = ["cat", "dog", "bird", "mouse", "fish"];
     for (num = 0; num < myArray.length; num++) {
-        textOut += "Fot - My pet is " + myArray[num] + "<br>";
+        textOut += "For - My pet is " + myArray[num] + "<br>";
     }
 
     // For in
