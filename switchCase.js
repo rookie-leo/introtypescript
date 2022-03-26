@@ -50,3 +50,4 @@ window.onload = function () {
     }
     document.getElementById('color').innerHTML = textOut2;
 };
+//# sourceMappingURL=switchCase.js.map

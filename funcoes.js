@@ -77,3 +77,4 @@ window.onload = function () {
     var resultSum1 = function (x, y, z) { return x + y + z; };
     document.getElementById('content').innerHTML = "Simple Arrow Function " + resultSum1(1, 2, 3);
 };
+//# sourceMappingURL=funcoes.js.map

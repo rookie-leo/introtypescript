@@ -23,7 +23,7 @@ window.onload = function () {
     }
     var myArray = ["cat", "dog", "bird", "mouse", "fish"];
     for (num = 0; num < myArray.length; num++) {
-        textOut += "Fot - My pet is " + myArray[num] + "<br>";
+        textOut += "For - My pet is " + myArray[num] + "<br>";
     }
     // For in
     var fruits = { name: "Apple", color: "Rede", size: 5 };
@@ -40,7 +40,7 @@ window.onload = function () {
         }
     }
     // Continue
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i <= 10; i++) {
         if (i == 3) {
             textOut += ">>>>>>>>> - I = " + i + "<br>";
             continue;
@@ -51,3 +51,4 @@ window.onload = function () {
     }
     document.getElementById('content').innerHTML = textOut;
 };
+//# sourceMappingURL=loops.js.map

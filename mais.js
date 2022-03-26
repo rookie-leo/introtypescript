@@ -12,6 +12,7 @@ var u = undefined;
 var n = null;
 // Never
 // Funções que retornam 'never' devem possuir um final inalcançável
+var mensagem = "Erro! ";
 function error(message) {
     throw new Error(mensagem);
 }
@@ -25,3 +26,4 @@ function infinitLoop() {
 }
 create({ prop: 0 });
 create(null);
+//# sourceMappingURL=mais.js.map

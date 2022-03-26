@@ -13,3 +13,4 @@ window.onload = function () {
     square.sideLength = 10;
     alert(square.color + " " + square.penWidth + " " + square.sideLength);
 };
+//# sourceMappingURL=classeType.js.map

@@ -15,10 +15,10 @@ window.onload = function () {
             throw new Error("Too low");
     }
     try {
-        var str = 11;
-        myCheck(str);
-        str = "Ok";
-        alert(str);
+        var str_1 = 11;
+        myCheck(str_1);
+        str_1 = "Ok";
+        alert(str_1);
     }
     catch (error) {
         document.getElementById('content').innerHTML = "<span style='color:#FF0000'>" + error.message + "</span>";
@@ -28,3 +28,4 @@ window.onload = function () {
         document.getElementById('content').innerHTML = varContent + "<br>Bloco FINALLY";
     }
 };
+//# sourceMappingURL=exception.js.map

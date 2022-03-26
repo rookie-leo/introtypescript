@@ -14,6 +14,12 @@ var Areas = /** @class */ (function () {
     Areas.prototype.circle = function (radius) {
         return this.pi * radius * radius;
     };
+    Areas.prototype.rectangle = function (height, width) {
+        return height * width;
+    };
+    Areas.prototype.square = function (side) {
+        return side * side;
+    };
     return Areas;
 }());
 window.onload = function () {
@@ -22,3 +28,4 @@ window.onload = function () {
     var circle = new Areas();
     document.getElementById('content').innerHTML = "The circle area is " + circle.circle(5);
 };
+//# sourceMappingURL=classes.js.map

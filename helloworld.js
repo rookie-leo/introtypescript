@@ -3,3 +3,4 @@ var str = "Log diz ".concat(mensagem); //Obrigatóriamente precisa ser o caracte
 //console.log recebendo como parâmetro a variável 'mensagem',
 //para exibir o texto associado a ela no console do navegador.
 console.log(str);
+//# sourceMappingURL=helloworld.js.map

@@ -56,6 +56,8 @@ window.onload = function () {
     var product = new Product("Table", 1899.99);
     product.PriceWithDiscount(10);
     var tv = new TV("TV", 1250.99, 52);
-    tv.setName = "SAMSUNG";
+    tv.setName = "SAMSUNG"; //set
+    tv.getName; //get
     tv.PriceWithDiscount(5);
 };
+//# sourceMappingURL=heranca.js.map

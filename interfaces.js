@@ -28,3 +28,4 @@ window.onload = function () {
     myArray = ["Leo", "Jaq"];
     alert(myArray[1]);
 };
+//# sourceMappingURL=interfaces.js.map
