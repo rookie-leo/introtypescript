@@ -7,17 +7,24 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='Validator.js' type="text/javascript"></script>
-    <script src='classesGenericas.js'></script>
+    <script src='TsMaisJs.js'></script>
+    <script src="MyJavaScriptLibrary.js"></script>
     <script>
-        var p = new Produto("001", "Produto teste", 29.9);
-        var dados = p.getDados();
-        alert(dados);
+        function btClick() {
+            let objCalc = new Module1.Calculator.CalcAreas();
+            let resultArea = objCalc.getArea(3);
+            alert("The calculated area is " + resultArea);
+        }
     </script>
+
+
 </head>
 <body>
     <h1>Aprendendo TypeScript</h1>
 
-    <div id="content"></div>
+    <div id="content">
+        <button type="button"  onclick="btClick()">Click here</button>
+    </div>
     <div id="color"></div>
 </body>
 </html>
